@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An interactive workplace game about managing up.">
+  <title>Read the Room: Managing Up</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Read the Room home">
+      <span class="brand-mark" aria-hidden="true">R</span>
+      <span>READ THE ROOM <small>MANAGING UP</small></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#challenges" data-nav="challenges">Challenges</a>
+      <a href="#guide" data-nav="guide">Quick Guide</a>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <div id="app" aria-live="polite"></div>
+  </main>
+  <footer class="site-footer">
+    <span>Read the Room: Managing Up</span>
+    <span>Practice making informed decisions at work.</span>
+  </footer>
+  <script src="scripts/scenarios.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
